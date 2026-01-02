@@ -1,6 +1,10 @@
 title: CFOCases
 description: Independent educational publication sharing anonymized, case-based financial decision frameworks.
-theme: just-the-docs
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
 
 url: https://cfocases.com
 
@@ -18,4 +22,3 @@ aux_links:
     - /disclaimer/
   "Contact":
     - /contact/
-
